@@ -1,23 +1,5 @@
 
-  .gallery-container {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 25px;
-  
-    @media screen and (min-width: 480px) {
-      width: 480px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-    @media screen and (min-width: 768px) {
-      width: 768px;
-    }
-  
-    @media screen and (min-width: 1440px) {
-      width: 1440px;
-    }
-  }
+
   
   .gallery,
   .info {
@@ -56,4 +38,5 @@
   .gallery-item__img {
     display: block;
     object-fit: cover;
+    height: 30vh;
   }

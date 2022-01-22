@@ -15,7 +15,7 @@
     cursor: pointer;
   }
   
-  .btn-to-top {
+  .btn-top {
     position: fixed;
     bottom: 3vh;
     right: 1vw;
@@ -34,13 +34,13 @@
     visibility: hidden;
   }
   
-  .btn-to-top--visible {
+  .btn-top--visible {
     opacity: 1;
     visibility: visible;
   }
   
   .btn-load-more:hover,
-  .btn-to-top:hover {
+  .btn-top:hover {
     background-color: #657de0;
     transition: all 0.3s;
   }
