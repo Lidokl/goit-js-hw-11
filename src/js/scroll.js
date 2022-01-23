@@ -1,13 +1,13 @@
 export { onScroll, onToTopBtn }
 
-const toTopBtn = document.querySelector('.btn-top')
+const toTopBtn = document.querySelector('.btn-top');
 
-window.addEventListener('scroll', onScroll)
-toTopBtn.addEventListener('click', onToTopBtn)
+window.addEventListener('scroll', onScroll);
+toTopBtn.addEventListener('click', onToTopBtn);
 
 function onScroll() {
-  const scrolled = window.pageYOffset
-  const coords = document.documentElement.clientHeight
+  const scrolled = window.pageYOffset;
+  const coords = document.documentElement.clientHeight;
 
   if (scrolled > coords) {
     toTopBtn.classList.add('btn-top--visible')
